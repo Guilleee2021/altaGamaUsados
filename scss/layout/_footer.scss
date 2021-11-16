@@ -1,0 +1,23 @@
+footer{
+    background-image: linear-gradient(to right top, #000000, #0e0c0c, #171614, #1d1d1a, #222522);
+    font-weight: 900;
+}
+
+.copyright{
+    @include position(flex, row);
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.ubicacion{
+    @include position(flex, column);
+    text-align: center;
+    padding: 1rem;
+}
+
+.infoFooter{
+    display: grid;
+    grid-template-columns: 3rem 3rem;
+    grid-gap: 1px;
+    padding: 1px;
+}

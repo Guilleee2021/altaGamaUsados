@@ -1,0 +1,38 @@
+.zoom {
+    transition: transform .2s; 
+    :hover {
+        transform: scale(1.15); 
+    }
+}
+.formulario__letras{
+    padding: 1rem;
+    color: $font__principal--texto;
+}
+.formulario_letras-terminos{
+    color: $font__principal--texto
+}
+
+.paddingPublicaciones{
+    padding: 5rem;
+}
+
+.margenesPublicaciones{
+    margin-bottom: 4rem;
+    display: flex;
+    div{
+        padding-left: 3rem;
+    }
+    img{
+        display: inline-block;
+        width: 30rem;
+        height: 20rem;
+    }
+}
+
+label,legend {
+    color:$font__principal--texto;
+}
+
+input{
+    padding: 1rem;
+}
