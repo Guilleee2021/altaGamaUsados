@@ -71,7 +71,8 @@ nav {
 
 .margenesPublicaciones {
   margin-bottom: 4rem;
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
   .margenesPublicaciones div {
     padding-left: 3rem; }
   .margenesPublicaciones img {
